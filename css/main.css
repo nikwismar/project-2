@@ -261,3 +261,69 @@ textarea {
   }
 }
 
+
+
+
+/* Start of Code */
+
+.background {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+}
+
+.text {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.best {
+  font-size: 3rem;
+  font-weight: 800;
+  color: gold;
+  text-shadow: 3px 3px 3px goldenrod;
+}
+
+.no-one {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.catch {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: green;
+  border: 5px solid green ;
+  border-radius: 10px;
+}
+
+.my-cause {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: blue;
+  background-color: lightskyblue;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.power {
+  font-size: 3rem;
+  color: orangered;
+  text-shadow: 3px 3px 3px orange;
+  background-color: lightgoldenrodyellow;
+  border-radius: 10px;
+}
