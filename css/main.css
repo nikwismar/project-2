@@ -281,6 +281,8 @@ textarea {
   flex-direction: column;
 }
 
+
+
 .best {
   font-size: 3rem;
   font-weight: 800;
@@ -311,14 +313,40 @@ textarea {
   border-radius: 10px;
 }
 
+.travel {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
+.far {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  color: navy;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
+.wide {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  color: navy;
+  letter-spacing: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
+.understand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
 
-
-
-
-
+}
 
 .power {
   font-size: 3rem;
