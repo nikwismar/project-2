@@ -266,92 +266,213 @@ textarea {
 
 /* Start of Code */
 
-.background {
-  background-image: url(../img/background.jpg);
-  background-size: cover;
-  background-position: center bottom;
-  min-height: 100vh;
+
+/* Computer Screen Dimensions */
+
+@media (min-width: 1200px) {
+  .background {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 100vh;
+  }
+  
+  .text {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .best {
+    font-size: 3rem;
+    font-weight: 800;
+    color: gold;
+    text-shadow: 3px 3px 3px goldenrod;
+  }
+  
+  .no-one {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: gray;
+    text-decoration: line-through;
+    letter-spacing: 0.2rem;
+  }
+  
+  .catch {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: darkgreen;
+    border: 5px solid darkgreen ;
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  
+  .my-cause {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: blue;
+    text-shadow: 2px 2px 2px navy;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .travel {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .far {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: navy;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .wide {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: navy;
+    letter-spacing: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .understand {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    font-weight: 500;
+  
+  }
+  
+  .power {
+    font-size: 3rem;
+    color: orangered;
+    text-shadow: 3px 3px 3px orange;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
 
-.text {
-  font-family: 'Lexend', sans-serif;
-  font-weight: 800;
-  font-size: 2rem;
-  display: flex;
-  flex-direction: column;
-}
 
 
+/* Phone Screen Dimensions */
 
-.best {
-  font-size: 3rem;
-  font-weight: 800;
-  color: gold;
-  text-shadow: 3px 3px 3px goldenrod;
-}
-
-.no-one {
-  font-size: 2.5rem;
-  font-weight: 300;
-  color: gray;
-  text-decoration: line-through;
-}
-
-.catch {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: green;
-  border: 5px solid green ;
-  border-radius: 10px;
-}
-
-.my-cause {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: blue;
-  background-color: lightskyblue;
-  border-radius: 10px;
-}
-
-.travel {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 400;
-  letter-spacing: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.far {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  font-weight: 800;
-  color: navy;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.wide {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  font-weight: 800;
-  color: navy;
-  letter-spacing: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.understand {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 500;
-
-}
-
-.power {
-  font-size: 3rem;
-  color: orangered;
-  text-shadow: 3px 3px 3px orange;
-  background-color: lightgoldenrodyellow;
-  border-radius: 10px;
+@media (max-width: 1199px) {
+  .background {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 100vh;
+  }
+  
+  .text {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .best {
+    font-size: 1rem;
+    font-weight: 800;
+    color: gold;
+    text-shadow: 0.5px 0.5px 0.5px goldenrod;
+  }
+  
+  .no-one {
+    font-size: 1rem;
+    font-weight: 300;
+    color: gray;
+    text-decoration: line-through;
+    letter-spacing: 0.1rem;
+  }
+  
+  .catch {
+    font-size: 1rem;
+    font-weight: 700;
+    color: darkgreen;
+    border: 2px solid darkgreen ;
+    background-color: lightgreen;
+    border-radius: 4px;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  
+  .my-cause {
+    font-size: 1rem;
+    font-weight: 700;
+    color: blue;
+    text-shadow: 0.5px 0.5px 0.5px navy;
+    background-color: lightsteelblue;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .travel {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .far {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    color: navy;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .wide {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    color: navy;
+    letter-spacing: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .understand {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 500;
+  
+  }
+  
+  .power {
+    font-size: 1rem;
+    color: orangered;
+    text-shadow: 0.5px 0.5px 0.5px orange;
+    background-color: lightgoldenrodyellow;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
