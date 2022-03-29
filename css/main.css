@@ -379,7 +379,7 @@ textarea {
   .background {
     background-image: url(../img/background.jpg);
     background-size: cover;
-    background-position: center bottom;
+    background-position: bottom;
     min-height: 100vh;
   }
   
@@ -434,9 +434,9 @@ textarea {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    letter-spacing: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    letter-spacing: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   
   .far {
@@ -453,7 +453,7 @@ textarea {
     font-size: 1rem;
     font-weight: 800;
     color: navy;
-    letter-spacing: 1.5rem;
+    letter-spacing: 0.75rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
